@@ -1,17 +1,14 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *print -alphabet -make the alphabet
+ *Return: void
  */
-int main(void)
+void print -alphabet(void)
 {
-    int n;
-
-	for (n = 'a'; n <= 'z'; n++)
+	char c;
+	for(c='a'; c<='z'; c++)
 	{
-		_putchar(n);
+		-putchar(c);
 	}
-	_putchar('\n');
+	-putchar('\n');
 }
